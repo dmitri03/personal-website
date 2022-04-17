@@ -1,0 +1,94 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+    /*font-family: "Montserrat-Black";*/
+    /*font-family: 'Stalinist One', cursive;*/
+    font-family: 'Faster One', cursive;
+    /*font-family: 'Black Ops One';*/
+    font-size: 4rem;
+    line-height: 1.5;
+    width:300px;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 5%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+
+  color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 35px 50px;
+}
+
+.navbar-brand {
+    /*font-family: "Ubuntu";*/
+    /*font-family: "Montserrat-Black";*/
+    font-family: 'Stalinist One', cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1rem;
+    /*font-family: "Montserrat-Light";*/
+    font-family: 'Stalinist One', cursive;
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+#title {
+    /*background-image:url('image/arena.jpg');*/
+    background-image:src('image/arena.jpg');
+    color: #fff;
+    text-align: left;
+}
+
+#title .container-fluid {
+  padding: 2% 5% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}

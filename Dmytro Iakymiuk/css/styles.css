@@ -1,0 +1,325 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+/*---------------------------Top Container------------------*/
+.top-container {
+    background-color: #B4DFE5;
+    position: relative;
+    height: 965px;
+    padding-top: 15px;
+    padding-bottom: 70px;
+    /*z-index:1;*/
+}
+
+.top-container #balloon {
+    position: relative;
+    /*z-index: 1;*/
+    width: 648px;
+    bottom: 86px;
+    right: 724px;
+}
+
+.top-container #balloon-1 {
+    position: absolute;
+    width: 200px;
+    top: 189px;
+    right: 200px;
+}
+
+.top-container #balloon-2 {
+    position: absolute;
+    width: 91px;
+    top: 612px;
+    right: 730px;
+}
+
+.top-cloud {
+    position: absolute;
+    width: 17rem;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    width: 46rem;
+    left: -240px;
+    bottom: -261px;
+}
+
+.top-cloud-1 {
+    position: absolute;
+    left: -75px;
+    bottom: -157px;
+    width: 18rem;
+}
+
+.top-cloud-2 {
+    position: absolute;
+    left: -39px;
+    top: 0;
+    width: 7rem;
+}
+
+.top-cloud-3 {
+    position: absolute;
+    left: 213px;
+    top: 201px;
+    width: 17rem;
+}
+
+.bottom-small-cloud {
+    position: absolute;
+    width: 10rem;
+    right: 641px;
+    bottom: 193px;
+}
+
+.bottom-small-cloud-1 {
+    position: absolute;
+    width: 6rem;
+    right: 784px;
+    bottom: 296px;
+}
+
+.bottom-big-cloud-1 {
+    position: absolute;
+    width: 23rem;
+    bottom: -169px;
+    right: 432px;
+}
+
+.bottom-big-cloud-2 {
+    position: absolute;
+    width: 41rem;
+    bottom: -254px;
+    right: 0px;
+}
+/*-----------------About--------------------------*/
+.About-container {
+    padding-top: 130px;
+    background-color: #FBE8A6;
+    position: relative;
+    height: 1100px;
+    /*z-index:1;*/
+}
+.About-container h2 {
+    color: #1c767ea3;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+/*---------------------------Projects Container----------------------------------*/
+#Projects-container {
+    /*width: 60rem;*/
+    background-color: #F4976C;
+    min-height: 700px;
+    margin-top: -100px;
+    height: 1200px;
+    padding-top: 150px;
+}
+
+.Projects-container h2 {
+    color: white;
+    font-weight: bold;
+    padding: 35px;
+}
+
+.Projects-container h4 {
+    color: white;
+    padding: 15px;
+}
+
+.Projects-container p {
+    color: white;
+    display: block;
+    padding: 15px;
+}
+.Projects-container #carousel-item {
+    height: 900px;
+    width: 900px;
+}
+
+.Projects-container #Project1, Project3, Project2 {
+    width: 700px;
+    height: 700px;
+}
+
+.Projects-container #Project1 {
+    width: 1200px;
+    height: 700px;
+}
+
+.Projects-container #Project2 {
+    width: 900px;
+    height: 700px;
+}
+/*---------------------------Bottom Container----------------------------------*/
+#ContactMe-container {
+    background-color: #303C6C;
+    margin-top: -202px;
+    padding: 20px;
+}
+/*-----------------------Bottom Container------------------------------*/
+.bottom-container {
+    background-color: #66BFBF;
+    padding-top: 20px;
+    margin-bottom: -30px;
+}
+/*-----------------------------------*/
+h1 {
+    color: #ecdef8;
+    font-size: 4.425rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #ecdef8;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.1rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+/*Navbar  */
+.navbar {
+    position:relative;
+    top:-0.5rem;
+    width: 100%;
+    transition: background-color 1s;
+}
+
+
+.navbar #menu-link{
+    color: #ffffff;
+}
+
+.navbar #menu-link, #menu-link-1, #menu-link-2, #menu-link-3:hover {
+    font-weight:bold;
+}
+.top-container #home-icon {
+    position: fixed;
+    z-index:3;
+}
+#navbarNav{
+    padding-left:40px;
+}
+
+/*Navbar*/
+a:hover {
+    color: #EAF6F6;
+}
+
+.title-text {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    position:relative;
+    top:150px;
+    color: #ffffff;
+}
+
+.top-container h1,h2 {
+    color: #ffffff;
+}
+#hobbies{
+    /*width:1000px;*/
+    /*padding-left:150px;*/
+    padding:100px 350px;
+}
+.hobby-image{
+    width:280px;
+    padding:50px 50px;
+}
+
+
+
+}
+
+.About-container #intro {
+    width: 30%;
+    margin: auto;
+    color: #619597b5
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+    color: #11999E;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.avatar{
+    width:16.5rem;
+    /*padding:60px;*/
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.row{
+    margin-right:0px;
+}
+
+.ContactMe-container h2 {
+    color: #11999E;
+    
+    font-weight: bold;
+}
+
+.Project-Description {
+    color: #619597b5;
+}
+
+#testimonial-carousel{
+    margin:0px 150px 0px 150px;
+    /*height:300px;*/
+
+}
+
