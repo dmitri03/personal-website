@@ -120,14 +120,14 @@ body {
     background-color: #F4976C;
     min-height: 700px;
     margin-top: -100px;
-    height: 1200px;
-    padding-top: 150px;
+    height: min-content;
+    padding: 150px 0px 50px 200px;
 }
 
 .Projects-container h2 {
     color: white;
     font-weight: bold;
-    padding: 35px;
+    padding-right: 220px;
 }
 
 .Projects-container h4 {
@@ -139,25 +139,6 @@ body {
     color: white;
     display: block;
     padding: 15px;
-}
-.Projects-container #carousel-item {
-    height: 900px;
-    width: 900px;
-}
-
-.Projects-container #Project1, Project3, Project2 {
-    width: 700px;
-    height: 700px;
-}
-
-.Projects-container #Project1 {
-    width: 1200px;
-    height: 700px;
-}
-
-.Projects-container #Project2 {
-    width: 900px;
-    height: 700px;
 }
 /*---------------------------Bottom Container----------------------------------*/
 #ContactMe-container {
@@ -260,7 +241,7 @@ a:hover {
 
 
 
-}
+
 
 .About-container #intro {
     width: 30%;
@@ -323,3 +304,91 @@ a:hover {
 
 }
 
+
+
+/*------------------------------------------------------------------*/
+
+
+.card-project {
+    margin: 100px 180px;
+    padding: 8px;
+    box-shadow: 0px 0px 16px rgb(0 0 0 / 80%);
+    max-width: 950px;
+    border: 5px solid white;
+    width: 80%;
+    height:600px;
+    padding: 10%;
+    box-sizing: border-box;
+    text-align: center;
+     background-position: center; 
+    /* background-repeat: no-repeat; */
+     background-size: cover; 
+    position: relative;
+    float:inline-start;
+}
+
+.card-project-description{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    /* display: none; */
+}
+
+
+.card-project-description h4{
+    margin-top: 0px;
+    margin-bottom: 2px;
+    color:white;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.card-project-description p{
+    display: none;
+}
+
+
+.bottom-card{
+    margin: 0% 30%;
+}
+
+.card-project:hover {
+    background-image: none !important;
+    background-color:#ebf5ff !important;
+}
+
+.card-project:hover .card-project-description h4{
+    text-shadow: none;
+    color: #1a82b6b5;
+}
+
+
+.card-project:hover .card-project-description p{
+    display: inline;
+    word-wrap: break-word;
+    color:#1a82b6b5;
+}
+
+
+/*----------------------------------------------------------------------------*/
+
+#Quantum-Image{
+    background-image: url("images/Capture.PNG");
+}
+
+#Coin-Image{
+    background-image: url("images/Capture1.PNG");
+}
+
+#MCSP-Image{
+    background-image: url("images/Project0.png");
+}
+
+#NVM-Image{
+    background-image: url("images/NVM.png");
+}
+
+
+.hobbyDivTxt{
+    background-image: none;
+    color: black;
+}

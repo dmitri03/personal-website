@@ -8,12 +8,13 @@
     <link rel="icon" href="favicon.ico">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="styles.css">
 
     <!-- Bootstrap Scripts -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="Scripts.js"></script> 
 </head>
 
 <body>
@@ -80,16 +81,16 @@
         <!--<hr>-->
         <div class="row" id="hobbies">
 
-            <div class="col-lg-4">
-                <img class="hobby-image" src="images/001-chess.png" alt="iphone-mockup">
+            <div class="col-lg-4 hobbyDiv">
+                <img class="hobby-image" id="chessImg"src="images/001-chess.png" alt="iphone-mockup">
             </div>
 
-            <div class="col-lg-4">
-                <img class="hobby-image" src="images/001-pencil.png" alt="iphone-mockup">
+            <div class="col-lg-4 hobbyDiv">
+                <img class="hobby-image"id="pencilImg" src="images/001-pencil.png" alt="iphone-mockup">
             </div>
 
-            <div class="col-lg-4">
-                <img class="hobby-image" src="images/001-soccer.png" alt="iphone-mockup">
+            <div class="col-lg-4 hobbyDiv">
+                <img class="hobby-image"id="soccerImg" src="images/001-soccer.png" alt="iphone-mockup">
             </div>
 
         </div>
@@ -102,7 +103,46 @@
     <div class="Projects-container" id="Projects-container">
         <h2>My Projects.</h2>
 
-        <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+        <div class="card-project research" id="Quantum-Image" >
+            <div class="card-project-details">
+     
+              <div class="card-project-description">
+                <h4>"ProTips" website mock-up</h4>
+                <p>
+                    Users will be able to read game-previews as well as receive email tips for future events from the best Analysts
+                    across multips Sports. <a class="link" href="ProTips.html">View here</a>
+                </p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="card-project research" id="Coin-Image">
+            <div class="card-project-details">
+              <!-- Image and information for the card -->
+              <div class="card-project-description">
+                <h4>Windows Application for Bank Account Management</h4>
+                <p>
+                    A windows app which allows to add as well as cancel transaction associated with a specific customer account.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-project research" id="MCSP-Image">
+            <div class="card-project-details">
+              <!-- Image and information for the card -->
+              <div class="card-project-description">
+                <h4>News-feed website mock-up</h4>
+                <p>
+                    Simple News-Feed Website that compiles news from differentdd spheres of interest such as politics, sports, and economy. Designed in Wordpress.
+                </p>
+              </div>
+            </div>
+          </div>
+  
+         
+          </div>
+        <!-- <div id="testimonial-carousel" class="carousel slide" data-ride="false">
             <div class="carousel-inner">
                 <div class="carousel-item active container-fluid">
                     <h4>"ProTips" website mock-up</h4>
@@ -137,7 +177,7 @@
             <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
                 <span class="carousel-control-next-icon"></span>
             </a>
-        </div>
+        </div> -->
 
     </div>
     <hr>
