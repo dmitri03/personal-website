@@ -371,21 +371,18 @@ a:hover {
 
 /*----------------------------------------------------------------------------*/
 
-#Quantum-Image{
+#Project1{
     background-image: url("images/Capture.PNG");
 }
 
-#Coin-Image{
+#Project2{
     background-image: url("images/Capture1.PNG");
 }
 
-#MCSP-Image{
+#Project3{
     background-image: url("images/Project0.png");
 }
 
-#NVM-Image{
-    background-image: url("images/NVM.png");
-}
 
 
 .hobbyDivTxt{
